@@ -1,0 +1,73 @@
+.hero { 
+    background: url(../images/infinite-loop-01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .hero-intro {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    
+    h1.intro-title {
+        font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#ff04c9, #00c2e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .group-btn-control {
+        margin: 30px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:0 30px;
+        a.creat-account {
+            font-size: 25px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: white;
+            padding: 10px 20px;
+            background-image: linear-gradient(to left,#ff04c9, #00c2e9);
+            border-radius: 8px;
+            transition: 0.3s all;
+        }
+        a.login {
+            font-size: 25px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: white;
+            padding: 8px 20px;
+            border: solid 2px #c02b93;
+            border-radius: 8px;
+            transition: 0.3s all;
+        }
+        a:hover {
+            transform: translateY(-5px);
+        }
+    }
+    a.text-center.tm-down-arrow-link{
+        display: inherit;
+        margin:auto;
+        transition: 0.3s all;
+        i {
+            font-size: 30px;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 5px;
+            background-color: #335577;
+            color:white;
+        }
+    }
+    a:hover {
+        transform: scale(1.1);
+        color:white;
+    }
+}
+}

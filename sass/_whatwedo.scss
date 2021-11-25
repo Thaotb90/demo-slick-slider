@@ -1,0 +1,41 @@
+.wwd {
+    // padding-top:80px;
+    // padding-bottom: 40px;
+    .intro-wwd{
+        margin-bottom: 40px;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-self: start;
+        align-items: start;
+        border: none;
+        gap: 20px;
+        ion-icon {
+            font-size: 55px;
+            font-weight: bold;
+            color: $primary-color;
+            flex-shrink: 0;
+        }
+        .card-body {
+            padding-top: 0;
+            padding-bottom:0;
+            button {
+                border: none;
+                border-radius: 0;
+                margin-top: 30px;
+                font-size: 20px;
+                color: white;
+                padding:10px 20px;
+                transition: 0.3s all;
+            }
+        }
+    }
+    .wwd-item {
+        margin-bottom: 60px;
+    }
+    
+}
+// strong {
+//     font-weight: 700;
+// }

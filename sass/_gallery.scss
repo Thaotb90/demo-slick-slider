@@ -1,0 +1,35 @@
+#gallery{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    .slick-dots li button {
+        width: 20px;
+        height: 20px;
+        background:transparent;
+        border-radius: 10rem;
+        transition: 0.3s all;
+    }
+    .slick-dots li button:hover {
+        background: radial-gradient(#3c92da, #d6d6d6);
+    };
+    .slick-dots button:before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        line-height: 10px;
+        background: #766b6b;
+        border-radius: 10rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    figcaption h2 i {
+        color: white;
+        font-size: 24px;
+        font-weight: normal;
+        span {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}

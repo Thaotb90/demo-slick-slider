@@ -1,0 +1,107 @@
+.header {
+    .header-main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        .fixed-top {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            margin: auto;
+            a.navbar-brand {
+                font-size: 22.4px;
+                font-weight: 700;
+                color: white;
+                display: inline-block;
+                overflow: hidden;
+                img {
+                    max-width: 200px;
+                    object-fit: cover;
+                }
+            }
+            button {
+                outline: 0;
+                
+                ion-icon {
+                    font-size: 35px;
+                }
+            }
+            div#navbarSupportedContent {
+                transition: 0.3s all;
+                ul.navbar-nav {
+                    width: 100%;
+                    justify-content: right;
+                }
+            }
+            
+        }
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: start;
+    a.nav-link {
+        font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 30px;
+    color: #a1a1a1;
+    }
+    }
+    .group-control {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap:30px;
+        .login {
+            a{
+            color:#FE4554;
+            font-weight: 600;
+            font-size: 14px;
+            i {
+                font-size: 20px;
+                font-weight: 900;
+                background: -webkit-linear-gradient(
+            45deg, #09009f, #FE4554 80%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin: 0;
+                margin-right: 10px; 
+            }
+        }
+        }
+        .sign-up{
+            a {
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                padding:2px 20px; 
+                position: relative;
+                box-sizing: border-box;
+
+                $border: 2px;
+                color: #FFF;
+                background: #110F37;
+                background-clip: padding-box; /* !importanté */
+                border: solid $border transparent; /* !importanté */
+                border-radius: 5px;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0; right: 0; bottom: 0; left: 0;
+                    z-index: -1;
+                    margin: -$border; /* !importanté */
+                    border-radius: inherit; /* !importanté */
+                    background: linear-gradient(to left, #9419C1, #FE4553);
+                }
+            }
+        }
+    }
+}
+
+nav.navbar.navbar-shrink {
+    background: black;
+}

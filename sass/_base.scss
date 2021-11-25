@@ -1,0 +1,82 @@
+body {
+    font-family: $font-primary;
+    color: $gray-color;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+input, button, select, textarea {
+    box-sizing: border-box;
+    outline: none;
+}
+button{
+    cursor: pointer;
+}
+button:active, button:focus {
+    box-shadow: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:$primary-color;
+    font-weight: 500;
+}
+a {
+    color:$primary-color;
+    transition: 0.3s all;
+    text-decoration: none;
+}
+a:hover, a.active {
+    text-decoration: none;
+    outline: none;
+    color:$second-color;
+}
+li {
+    list-style: none;
+    line-height: 1.7;
+}
+input, input:focus {
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.wrapper {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 35px;
+}
+h4 {
+    font-size: 25px;
+}
+.title-section {
+    margin: 20px 0 30px 0;
+    font-size: 45px;
+}
+.sub-title-section {
+    line-height: 33px;
+    font-size: 18px;
+}
+a.hightlight {
+    font-weight: 500;
+    color:$primary-color;
+}
+section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a, a:hover {
+    text-decoration: none;
+}

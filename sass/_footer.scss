@@ -1,0 +1,75 @@
+.footer {
+    background: url(../images/infinite-loop-03.jpg);
+    padding: 80px 0 40px 0;
+    .footer-top {
+        text-align: center;
+        margin-bottom: 60px;
+        .footer-title
+        {
+            font-size: 4rem;
+            color: white;
+            font-weight: normal;
+        }
+        .footer-title-sub {
+        font-size: 18px;
+        font-weight: normal;
+        color:white;
+        }
+    }
+    .form-group {
+        margin-bottom: 30px;
+        input {
+            background: transparent;
+            border: 1px solid white;
+            color:white;
+        }
+        ::placeholder{
+            font-style: italic;
+            font-weight: 300;
+            color:white;
+            font-size: 16px;
+        }
+        textarea{
+            background: transparent;
+            color: white;
+        }
+        .btn-submit {
+            font-size: 22px;
+            text-transform: uppercase;
+            color:white;
+            padding: 8px 30px;
+            background: cornflowerblue;
+            border-radius: 5px;
+            transition: .2s all;
+        }
+        .btn-submit:hover {
+            background: darkblue;
+            transform: translateY(-5px);
+        }
+    }
+    .footer-menu-contact {
+        .menu-item {
+            margin-bottom: 50px;
+            a{
+                font-size: 22px;
+                display: flex;
+                align-items: center;
+                color:white;
+                transition: all 0.2s ease-in-out;
+                ion-icon{
+                    color:white;
+                    font-size: 30px;
+                    margin-right: 10px;
+                    transition: all .2s ease-in-out;
+                }
+            }
+            a:hover, a:hover ion-icon {
+                color:$primary-color;
+            }
+        }
+    }
+}
+.coppyright {
+    margin-top: 40px;
+    color:white;
+}

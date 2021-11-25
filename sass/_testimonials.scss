@@ -1,0 +1,41 @@
+.testimonials {
+    background-image: url(../images/infinite-loop-02.jpg);
+    padding-bottom: 40px;
+    p {
+        color: white;
+    }
+    h1, h2, h3, h4 {
+        color:white;
+    }
+    .owl-item {
+        padding: 0 15px;
+        .testimonial-image {
+            overflow: hidden;
+            border-radius: 100rem;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        img {
+            border-radius: inherit;
+            transition: 0.3s;
+        }
+    }
+    .testimonial-content {
+        text-align: left;
+        p.testimonial-author{
+            text-align: right;
+        }
+    }
+    }
+    .testimonial-image:hover img {
+        transform: scale(1.1);
+    }
+}
+.owl-theme .owl-controls {
+    top: 0;
+    display: inline-block;
+}
